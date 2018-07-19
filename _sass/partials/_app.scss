@@ -73,7 +73,6 @@ header > nav {
       a,
       a:visited {
         color: white;
-        font-weight: $bold-font-weight;
         text-decoration: none;
         border: 0;
         @media screen and (min-width: $screen-sm-min) {
