@@ -4,6 +4,8 @@ backend:
 
 media_folder: "assets/img/uploads" # Folder where user uploaded files should go
 
+publish_mode: editorial_workflow # Enable drafts
+
 collections: # A list of collections the CMS should be able to edit
   # POSTS
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
