@@ -1,0 +1,25 @@
+// site colours
+$text-color: rgb(40,40,40);
+$text-color-negative: white;
+$brand-color: rgb(29,37,52);
+$link-color: rgb(0,114,154);
+$link-hover-color: rgb(0,57,78);
+$grey-bg-color: rgb(243,243,243);
+$hairline-color: rgb(230,230,230);
+$selection-bg-color: rgba(255,255,100,0.5);
+
+// typographic defaults
+//$base-font: "Nunito Sans", Arial, sans-serif;
+$base-font: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Droid Sans,Helvetica Neue;
+$code-font: Courier, monospace;
+$base-font-size: 62.5%;
+$base-font-weight: 300;
+$bold-font-weight: 600;
+$base-line-height: 1.5;
+
+// viewport breakpoints
+$screen-xs-min: 480px;
+$screen-sm-min: 768px;
+$screen-md-min: 992px;
+$screen-lg-min: 1240px;
+$screen-xl-min: 1920px;

@@ -1,0 +1,11 @@
+<header>
+
+  <h1>
+    <a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  </h1>
+
+  <nav>
+    {% include navigation.html navigation=site.data.navigation %}
+  </nav>
+
+</header>

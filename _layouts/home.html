@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+
+  {% include page-intro.html %}
+
+  {{ content }}
+
+  <section>
+
+    <h3>Recent posts from the blog</h3>
+
+    <ul>
+      {% for post in site.posts limit:3 %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+  </section>

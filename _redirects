@@ -1,0 +1,5 @@
+# Redirects for Netlify
+
+# Examples
+/index.html         /
+/about.html         /about

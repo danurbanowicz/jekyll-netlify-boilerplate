@@ -1,0 +1,7 @@
+# Netlify Headers (optional)
+
+# Set X-Frame-Options and X-XSS-Protection headers for pages on your site
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
