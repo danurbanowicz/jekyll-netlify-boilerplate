@@ -61,13 +61,15 @@ kramdown:
   # Prevent IDs from being added to h1-h6 tags
   auto_ids: false
 
-# Include in processing (Netlify directives)
-include:
-  - _redirects
-  - _headers
+# Include in processing (e.g. Netlify directives)
+# Uncomment before use
+
+#include:
+#  - _redirects
+#  - _headers
 
 # Exclude from processing.
-# The following items will not be processed, by default.
+# The following items will not be processed.
 exclude:
   - README.md
   - LICENSE.txt

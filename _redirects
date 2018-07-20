@@ -8,7 +8,8 @@
 # the trailing slash, you should activate Pretty URLs in Netlify at:-
 # Settings > Build & deploy > Post processing > Asset optimization
 
-# Examples (uncomment before use)
+# Examples (uncomment before use and make sure this file is listed in the
+# processing includes in Jekyll's _config.yml)
 
 #/my-old-page         /my-new-page
 #/old-content.html    /shiny-new-content.html
