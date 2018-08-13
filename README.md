@@ -3,7 +3,7 @@
 **A really simple Jekyll template for creating a fast, static website on Netlify with
 a continuous deployment workflow.**
 
-### This project is featured on Netlify's official [template showcase](http://templates.netlify.com/template/jekyll-with-netlify-cms-boilerplate/) and blog: [The top 10 Static Site Generators to watch in 2018](http://templates.netlify.com/template/jekyll-with-netlify-cms-boilerplate/)
+**This project is featured on Netlify's official [template showcase](http://templates.netlify.com/template/jekyll-with-netlify-cms-boilerplate/) and blog: [The top 10 Static Site Generators to watch in 2018](http://templates.netlify.com/template/jekyll-with-netlify-cms-boilerplate/)**
 
 * Minimal styling, ready to make your own
 * Example blog posts, pages and contact form
