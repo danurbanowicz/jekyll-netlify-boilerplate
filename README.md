@@ -1,5 +1,7 @@
 # Jekyll Netlify Boilerplate
 
+*Note: Check out my [Eleventy Netlify Boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate) if you want to get with the cool kids; it does the same as this project but uses the [Eleventy](https://www.11ty.io/) static site generator, is super flexible and doesn't require Ruby.*
+
 **A really simple Jekyll template for creating a fast, static website on Netlify with
 a continuous deployment workflow.**
 
@@ -39,9 +41,20 @@ This will setup everything needed for running the CMS:
 * Control users and access with Netlify Identity
 * Manage content with Netlify CMS
 
-The email address associated with your Netlify account will receive an email inviting you as an
-Identity user - click Accept in the email to set your new password, then navigate to `/admin` on
-your site to log in.
+### Setup authentication
+
+After deploying this project, Netlify Identity will add you as a CMS user and
+will email you an invite. It is not necessary to accept this invite if you wish
+to use an
+[OAuth provider](https://www.netlify.com/docs/identity/#external-provider-login)
+(e.g. Github) to manage authentication for your CMS.
+It is recommended to use this method of authentication as it removes the need
+for an email & password to log in to the CMS and is generally more secure. You
+will need to add an OAuth provider in your Netlify app settings under
+"Settings" > "Identity" > "External providers".
+
+Next, navigate to `/admin` on your site, choose your OAuth provider from the
+login box and you should then be logged into your CMS.
 
 Now you're all set, and you can start editing content!
 
