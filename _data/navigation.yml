@@ -1,3 +1,5 @@
+# specify main nav items here
+
 - text: Home
   url: /
 - text: About
