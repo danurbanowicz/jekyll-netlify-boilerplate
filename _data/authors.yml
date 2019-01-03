@@ -1,4 +1,5 @@
 # specify site authors in this file
+# you can add .yml files for any other global data in this folder
 
 dan_urbanowicz:
     name: Dan Urbanowicz
