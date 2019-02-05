@@ -1,6 +1,6 @@
 # Jekyll Netlify Boilerplate
 
-*Note: Check out my [Eleventy Netlify Boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate) if you want to get with the cool kids; it does the same as this project but uses the [Eleventy](https://www.11ty.io/) static site generator, is super flexible and doesn't require Ruby.*
+*Note: Check out my [Eleventy Netlify Boilerplate](https://github.com/danurbanowicz/eleventy-netlify-boilerplate). It does the same as this project but uses the [Eleventy](https://www.11ty.io/) static site generator, is super flexible and doesn't require Ruby.*
 
 **A really simple Jekyll template for creating a fast, static website on Netlify with
 a continuous deployment workflow.**
