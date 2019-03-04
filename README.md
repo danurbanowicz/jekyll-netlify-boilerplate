@@ -79,8 +79,6 @@ Now navigate to [localhost:4000](http://localhost:4000/) to preview the site, an
 
 ## Bug reports, feature requests, etc
 
-This is an ongoing project and I welcome any feedback, suggestions or contributions.
-
-Please use the issue tracker to let me know about any bugs or feature requests, or alternatively make a pull request.
+This is an ongoing project and I welcome contributions. Feel free to submit a PR.
 
 If you need any help with setting up Netlify CMS, you can reach out to the Netlify team in the [Netlify CMS Gitter](https://gitter.im/netlify/netlifycms).
