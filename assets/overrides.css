@@ -1,0 +1,124 @@
+#footer,
+#testimonial,
+/*					#speakers,*/
+#register,
+#accomodation-alternatives,
+#gallery {
+  display: none;
+}
+.hidden {
+  display: none !important;
+}
+
+body {
+  font-family: "Barlow";
+  font-weight: 400;
+  color: #999;
+  font-size: 17px;
+}
+
+h1 {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 700;
+}
+
+.lead {
+  font-family: "Barlow";
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333;
+}
+
+h2 {
+  color: #333;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 34px;
+}
+
+h3 {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+h4 {
+  color: #351dca;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0px;
+}
+
+#highlight #left {
+  color: #fff;
+  background: #001b7e;
+  min-height: 100px;
+}
+
+#highlight #right {
+  background: #001b7e;
+  min-height: 100px;
+}
+
+#countdown .countdown_amount {
+  color: #fff;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 50px;
+  text-align: center;
+}
+
+#countdown .countdown_section {
+  color: #fff;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 10px;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.sponsor.large {
+  width: 660px;
+  height: auto;
+  /*            height: 205px;*/
+  /*            line-height: 100px;*/
+  text-align: center;
+}
+
+.sponsor.large img {
+  display: inline-block;
+  max-width: 640px;
+  max-height: 180px;
+}
+
+#sponsors h3 {
+  margin: 1em 0;
+}
+
+@media only screen and (max-width: 768px),
+  only screen and (max-device-width: 768px) {
+  .sponsor {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  .sponsor.large img {
+    max-width: 100%;
+  }
+
+  .speaker img {
+    width: 100%;
+  }
+}

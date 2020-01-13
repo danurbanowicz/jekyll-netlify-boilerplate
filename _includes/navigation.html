@@ -1,4 +1,58 @@
-{% assign navurl = page.url | remove: 'index.html' %}
+<!-- NAVIGATION -->
+<nav id="nav-primary" class="navbar navbar-custom" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button
+        type="button"
+        class="navbar-toggle"
+        data-toggle="collapse"
+        data-target="#nav"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/"
+        ><img
+          src="/editions/2019/assets/img/logo.svg"
+          alt="logo"
+          width="120"
+          height="53"
+      /></a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="nav navbar-nav navbar-right uppercase">
+        <li><a data-toggle="elementscroll" href="#info">About</a></li>
+        <li><a data-toggle="elementscroll" href="#mentors">Mentors</a></li>
+        <li><a data-toggle="elementscroll" href="#sponsors">Sponsors</a></li>
+        <li><a data-toggle="elementscroll" href="#program">Program</a></li>
+        <!-- <li><a data-toggle="elementscroll" href="#register">Register</a></li> -->
+        <!-- <li><a data-toggle="elementscroll" href="#gallery">Gallery</a></li> -->
+        <li><a data-toggle="elementscroll" href="#jobs">Jobs</a></li>
+
+        <li><a data-toggle="elementscroll" href="#tickets">Tickets</a></li>
+        <li><a data-toggle="elementscroll" href="#venue">Venue</a></li>
+        <li>
+          <a data-toggle="elementscroll" href="mailto:info@swiftaveiro.xyz"
+            >Contact</a
+          >
+        </li>
+        <li>
+          <a
+            data-toggle="elementscroll"
+            class="html-popup"
+            href="codeOfConduct.html"
+            >Code of Conduct</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- {% assign navurl = page.url | remove: 'index.html' %}
 <ul>
 {% for item in include.navigation %}
   <li>
@@ -9,3 +63,4 @@
   </li>
 {% endfor %}
 </ul>
+ -->
