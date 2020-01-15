@@ -3,22 +3,18 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html data-current="{{ page.section }}" lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html data-current="{{ page.section }}" lang="en" class="no-js"> <!--<![endif]-->
 
   {% include head.html %}
 
   <body>
-
     {% include header.html %}
-
-    <main>
-
       {{ content }}
-
-    </main>
-
     {% include footer.html %}
-
   </body>
 
 </html>

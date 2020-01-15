@@ -1,12 +1,14 @@
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+  />
   <title>
     {% if page.section == "home" %}{{ site.title }}{% else %}{{ page.title |
     default: site.title }}{% endif %}
   </title>
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}"> {% if
-  jekyll.environment == 'production' and site.analytics %} {% include
+  {% if jekyll.environment == 'production' and site.analytics %} {% include
   analytics.html %} {% endif %}
   <link
     href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:400,500,700"
@@ -21,9 +23,26 @@
     rel="stylesheet"
     type="text/css"
   />
-
   <script
     async
     src="https://identity.netlify.com/v1/netlify-identity-widget.js"
   ></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/bootstrap.css" />
+  <link rel="stylesheet" href="/assets/css/pe-icon-7-stroke.css" />
+  <link rel="stylesheet" href="/assets/css/helper.css" />
+  <link rel="stylesheet" href="/assets/css/animate.min.css" />
+  <link rel="stylesheet" href="/assets/css/font-awesome.css" />
+  <link rel="stylesheet" href="/assets/css/font.css" />
+  <link rel="stylesheet" href="/assets/css/salvattore.css" />
+  <link rel="stylesheet" href="/assets/css/jquery.countdown.css" />
+  <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
+  <link rel="stylesheet" href="/assets/css/jquery.mCustomScrollbar.css" />
+  <link rel="stylesheet" href="/assets/css/owl.carousel.css" />
+  <link rel="stylesheet" href="/assets/css/owl.theme.css" />
+  <link rel="stylesheet" href="/assets/css/owl.transitions.css" />
+  <link rel="stylesheet" href="/assets/css/revolution.css" />
+  <link rel="stylesheet" href="/assets/css/revolution-extralayers.css" />
+
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 </head>
