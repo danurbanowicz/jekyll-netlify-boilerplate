@@ -2,32 +2,28 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
+<div class="container">
+  <h1>{{ page.title }}</h1>
 
-{% include page-intro.html %}
+  {% include page-intro.html %}
 
-{{ content }}
+  {{ content }}
 
-<section>
-
-  <h3>Posts</h3>
-
-  <ul>
-    {% for post in site.posts %}
-    {% assign author = site.data.authors[post.author] %}
+  <section>
+    <ul>
+      {% for post in site.posts %}
+      {% assign author = site.data.authors[post.author] %}
       <li>
         <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
         <time datetime="{{ post.date }}">
           <small>
             <strong>{{ post.date | date_to_string }}</strong>
-            {% if author %}
-              by {{ author.name }}
-            {% endif %}
+            {% if author %} by {{ author.name }} {% endif %}
           </small>
         </time>
         {{ post.excerpt | strip_newlines | truncate: 180 }}
       </li>
-    {% endfor %}
-  </ul>
-
-</section>
+      {% endfor %}
+    </ul>
+  </section>
+</div>

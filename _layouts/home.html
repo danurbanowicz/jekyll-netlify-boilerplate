@@ -8,6 +8,10 @@ layout: default
 {% include home-highlights.html %}
 <!-- funfacts -->
 {% include home-funfacts.html %}
+
+<!-- blog -->
+{% include home-blog.html %}
+
 <!-- info -->
 {% include home-info.html %}
 <!-- mentors -->
@@ -24,26 +28,5 @@ layout: default
 {% include home-partners.html %}
 <!-- venue -->
 {% include home-venue.html %}
-
-<!-- google map -->
-<div id="gmap_canvas"></div>
-
-<!-- <h2>{{ page.title }}</h2>
-
-  {% include page-intro.html %}
-
-  {{ content }}
-
-  <section>
-
-    <h3>Recent posts from the blog</h3>
-
-    <ul>
-      {% for post in site.posts limit:3 %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-
-  </section> -->
+<!-- map -->
+{% include home-map.html %}

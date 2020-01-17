@@ -116,65 +116,7 @@
   </div>
 </div>
 
-<!- GOOGLE MAP -->
-<script>
-  function initMap() {
-    var nyevent = { lat: 40.6384581, lng: -8.6461346 };
-    var map = new google.maps.Map(document.getElementById("gmap_canvas"), {
-      zoom: 17,
-      center: nyevent,
-      scrollwheel: false,
-      //              styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}],
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-      // mapTypeId: google.maps.MapTypeId.SATELLITE
-    });
-
-    // Define Marker properties
-    var image = new google.maps.MarkerImage(
-      "assets/img/map-logo.png",
-      // This marker is 129 pixels wide by 42 pixels tall.
-      new google.maps.Size(129, 129),
-      // The origin for this image is 0,0.
-      new google.maps.Point(0, 0),
-      // The anchor for this image is the base of the flagpole at 18,42.
-      new google.maps.Point(0, 0)
-    );
-
-    // Add Marker
-    var marker1 = new google.maps.Marker({
-      position: new google.maps.LatLng(40.6384581, -8.6461346),
-      map: map,
-      icon: image // This path is the custom pin to be shown. Remove this line and the proceeding comma to use default pin
-    });
-
-    // Add listener for a click on the pin
-    google.maps.event.addListener(marker1, "click", function() {
-      infowindow1.open(map, marker1);
-    });
-
-    // Add information window
-    var infowindow1 = new google.maps.InfoWindow({
-      content: createInfo(
-        "SwiftAveiro",
-        "Cais da Fonte Nova, Lote 5<br>3810-200 Aveiro<br>Portugal"
-      )
-    });
-
-    // Create information window
-    function createInfo(title, content) {
-      return (
-        '<div class="infowindow"><h4>' + title + "</h4>" + content + "</div>"
-      );
-    }
-  }
-</script>
-
 <script src="assets/js/jquery-1.11.1.min.js"></script>
-<script
-  async
-  defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlcVJBF9NMSNsYVYuL7-LfC70lj7MgE08&callback=initMap"
-></script>
 <script src="assets/js/jquery.themepunch.tools.min.js"></script>
 <script src="assets/js/jquery.themepunch.revolution.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
@@ -186,7 +128,7 @@
 <script src="assets/js/waypoints.min.js"></script>
 <script src="assets/js/jquery.counterup.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
-<script src="assets/js/retina.js"></script>
+<!-- <script src="assets/js/retina.js"></script> -->
 <script src="assets/js/main.js?v2"></script>
 
 <!-- Google Analytics -->

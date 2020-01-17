@@ -1,0 +1,59 @@
+<!-- google map -->
+<div id="gmap_canvas"></div>
+
+<!- GOOGLE MAP -->
+<script>
+  function initMap() {
+    var nyevent = { lat: 40.6384581, lng: -8.6461346 };
+    var map = new google.maps.Map(document.getElementById("gmap_canvas"), {
+      zoom: 17,
+      center: nyevent,
+      scrollwheel: false,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    // Define Marker properties
+    var image = new google.maps.MarkerImage(
+      "assets/img/map-logo.png",
+      // This marker is 129 pixels wide by 42 pixels tall.
+      new google.maps.Size(129, 129),
+      // The origin for this image is 0,0.
+      new google.maps.Point(0, 0),
+      // The anchor for this image is the base of the flagpole at 18,42.
+      new google.maps.Point(0, 0)
+    );
+
+    // Add Marker
+    var marker1 = new google.maps.Marker({
+      position: new google.maps.LatLng(40.6384581, -8.6461346),
+      map: map,
+      icon: image // This path is the custom pin to be shown. Remove this line and the proceeding comma to use default pin
+    });
+
+    // Add listener for a click on the pin
+    google.maps.event.addListener(marker1, "click", function() {
+      infowindow1.open(map, marker1);
+    });
+
+    // Add information window
+    var infowindow1 = new google.maps.InfoWindow({
+      content: createInfo(
+        "SwiftAveiro",
+        "Cais da Fonte Nova, Lote 5<br>3810-200 Aveiro<br>Portugal"
+      )
+    });
+
+    // Create information window
+    function createInfo(title, content) {
+      return (
+        '<div class="infowindow"><h4>' + title + "</h4>" + content + "</div>"
+      );
+    }
+  }
+  window.initMap = initMap;
+</script>
+<script
+  async
+  defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlcVJBF9NMSNsYVYuL7-LfC70lj7MgE08&callback=initMap"
+></script>
