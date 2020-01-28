@@ -1,0 +1,15 @@
+# specify mentors in this file
+# slug is used for url/image (ie, in /assets/img/speakers/)
+
+- name: Dan Urbanowicz
+  slug: dan
+  company: Foo
+  email: dan.urbanowicz@gmail.com
+  web: https://www.danurbanowicz.com
+  twitter: https://twitter.com/pfandrade_
+- name: John Doe
+  slug: john
+  company: Bar
+  email: johndoe@email.com
+  web: http://twitter.com/johndoe
+  twitter: https://twitter.com/pfandrade_

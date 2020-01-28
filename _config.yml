@@ -45,8 +45,7 @@ compress_html:
 
 # set some common post defaults
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
@@ -82,3 +81,11 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+page_gen:
+  - index_files: false
+    data: "mentors"
+    template: "mentor"
+    name: "slug"
+    dir: "mentors"
+    extension: "html"
