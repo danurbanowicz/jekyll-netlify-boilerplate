@@ -12,3 +12,9 @@
   web: https://petersteinberger.com
   twitter: https://twitter.com/steipete
   description: 'Peter Steinberger founded and bootstrapped PSPDFKit in 2011 and since then grew the company to 50 employees. He stepped down as CEO in late 2019 and moved to a research role to focus on new products and technologies.'
+- name: Donny Wals
+  slug: donny
+  company: Disney Streaming Services
+  web: https://www.donnywals.com
+  twitter: https://twitter.com/donnywals
+  description: 'Donny Wals is a passionate and curious iOS developer, author and speaker. Currently he''s working at Disney Streaming Services on their internal iOS SDK. He''s have written three books on iOS development and has delivered several talks and workshop over the past couple of years. Next to iOS development he''s a huge cat lover and likes dabbling on his guitar.'
