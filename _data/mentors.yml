@@ -2,19 +2,24 @@
 # slug is used for url/image (ie, in /assets/img/speakers/)
 
 - name: Cecilia Humlelu
-  slug: cecilia
+  slug: cecilia-humlelu
   company: Spotify
   twitter: https://twitter.com/humlelu
   description: 'Cecilia is a senior iOS engineer at Spotify and mobile developer since 2011. In her free time she enjoys drawing using watercolors, taking photographs and going to the gym.'
 - name: Peter Steinberger
-  slug: peter
+  slug: peter-steinberger
   company: PSPDFKit
   web: https://petersteinberger.com
   twitter: https://twitter.com/steipete
   description: 'Peter Steinberger founded and bootstrapped PSPDFKit in 2011 and since then grew the company to 50 employees. He stepped down as CEO in late 2019 and moved to a research role to focus on new products and technologies.'
 - name: Donny Wals
-  slug: donny
+  slug: donny-wals
   company: Disney Streaming Services
   web: https://www.donnywals.com
   twitter: https://twitter.com/donnywals
   description: 'Donny Wals is a passionate and curious iOS developer, author and speaker. Currently he''s working at Disney Streaming Services on their internal iOS SDK. He''s have written three books on iOS development and has delivered several talks and workshop over the past couple of years. Next to iOS development he''s a huge cat lover and likes dabbling on his guitar.'
+- name: Julia Potapenko
+  slug: julia-potapenko
+  company: iOS Engineer
+  twitter: https://twitter.com/julepka
+  description: 'Julia Potapenko is an iOS Engineer, specializing in iOS apps security and OWASP MASVS compliance. Besides that she''s an active member of local communities. She''s a Mobile Lead in Women Who Code Kyiv and an organizational team member of OWASP Zhytomyr.'
