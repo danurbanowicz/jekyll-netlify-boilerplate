@@ -1,0 +1,5 @@
+{
+  "mentors": "/api/mentors",
+  "posts": "/api/posts",  
+  "search": "/api/search"
+}
