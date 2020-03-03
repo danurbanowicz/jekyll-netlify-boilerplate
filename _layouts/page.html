@@ -1,9 +1,9 @@
 ---
 layout: default
+section: foo
 ---
 
-<h2>{{ page.title }}</h2>
-
-{% include page-intro.html %}
-
-{{ content }}
+<main class="container">
+  <h2>{{ page.title }}</h2>
+  {% include page-intro.html %} {{ content }}
+</main>

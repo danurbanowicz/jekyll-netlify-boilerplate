@@ -121,3 +121,13 @@ h4 {
     width: 100%;
   }
 }
+
+body[data-section="page"] nav {
+  background: #001b7e;
+}
+body[data-section="page"] .sticky-wrapper {
+  padding-top: 0;
+}
+body[data-section="page"] main.container {
+  padding-top: 7rem;
+}

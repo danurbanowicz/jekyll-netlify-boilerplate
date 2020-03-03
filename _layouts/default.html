@@ -12,7 +12,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body data-section="{{ page.section }}">
     {% include header.html %} {{ content }} {% include footer.html %}
   </body>
 </html>
