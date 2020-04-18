@@ -1,6 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{site.description}}">
   <title>{% if page.section == "home" %}{{ site.title }}{% else %}{{ page.title | default: site.title }}{% endif %}</title>
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {% if jekyll.environment == 'production' and site.analytics %}
