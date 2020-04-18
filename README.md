@@ -72,6 +72,13 @@ Clone this repository and run:
 bundle install
 bundle exec jekyll server --watch
 ```
+
+In case you don't want to install ruby-bundler you can use docker:
+
+```bash
+docker-compose up
+```
+
 Jekyll will watch your project folder for changes.
 
 Now navigate to [localhost:4000](http://localhost:4000/) to preview the site, and
